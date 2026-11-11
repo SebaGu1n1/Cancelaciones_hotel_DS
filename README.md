@@ -43,9 +43,13 @@ Al optimizar la decisión comercial desplazando el umbral de corte de `p = 0.50`
 ## 5. Estructura del Repositorio
 ```text
 Cancelaciones_hotel_DS/
-├── data/                  # Dataset crudo y procesado (hotel_bookings_cleaned.csv)
-├── models/                # Espacio reservado para artefactos serializados
+├── data/
+│   ├── raw/
+│   │   └── hotel_bookings.csv            # Dataset original crudo (119.390 filas)
+│   └── processed/
+│       └── hotel_bookings_cleaned.csv    # Dataset limpio sin leakage ni duplicados (87.230 filas)
+├── models/                               # Espacio reservado para artefactos serializados
 ├── notebooks/
-│   └── cancelaciones_hoteleras.ipynb   # Notebook completo (EDA, Pipeline, ML y ROI)
-├── README.md              # Resumen ejecutivo del proyecto
-└── requirements.txt       # Dependencias del entorno
+│   └── cancelaciones_hoteleras.ipynb     # Notebook completo (EDA, Pipeline, ML y Simulación ROI)
+├── README.md                             # Resumen ejecutivo del proyecto
+└── requirements.txt                      # Dependencias del entorno
