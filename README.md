@@ -65,3 +65,8 @@ Cancelaciones_hotel_DS/
 │   └── cancelaciones_hoteleras.ipynb     # Notebook completo (EDA, Pipeline, ML y Simulación ROI)
 ├── README.md                             # Resumen ejecutivo del proyecto
 └── requirements.txt                      # Dependencias del entorno
+
+```
+
+## 6. Cómo correr el notebook
+* **Directo en Google Colab (más práctico):** Hacé clic en el botón **Open in Colab** arriba de todo y seleccioná `Entorno de ejecución -> Ejecutar todas`. El notebook levanta el CSV crudo directamente desde este repositorio, así que corre de punta a punta sin tener que montar Google Drive ni subir archivos a mano.
